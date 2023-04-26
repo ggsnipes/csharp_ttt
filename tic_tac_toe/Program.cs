@@ -3,8 +3,9 @@ using System.Threading;
 
 class Program
 {
-    // This is the playfield that will be rendered on the console screen
-    static char[] playField = { '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    // This is the playfield that will be rendered on the console screen, will not use 0
+    // this is so that the user uses the inputs 1 - 9 instead of 0 - 8 
+    static char[] playField = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
     // Using player as a counter, this is so that every even turn will be player 2's turn while player 1 will be odd numbers.
     static int player = 1;
     // This holds the markers, but will be set later
@@ -90,17 +91,47 @@ class Program
     private static void Board()
     {
         Console.WriteLine("     |     |      ");
-        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[0], arr[1], arr[2]);
+        Console.WriteLine("  {0}  |  {1}  |  {2}", playField[1], playField[2], playField[3]);
         Console.WriteLine("_____|_____|_____ ");
         Console.WriteLine("     |     |      ");
-        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[3], arr[4], arr[5]);
+        Console.WriteLine("  {0}  |  {1}  |  {2}", playField[4], playField[5], playField[6]);
         Console.WriteLine("_____|_____|_____ ");
         Console.WriteLine("     |     |      ");
-        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[6], arr[7], arr[8]);
+        Console.WriteLine("  {0}  |  {1}  |  {2}", playField[7], playField[8], playField[9]);
         Console.WriteLine("     |     |      ");
     }
 
     // win checker
-    
+    private static int CheckWin()
+    {
+        #region Horizontal win conditions
+        if(playField[1] == playField[2] && playField[2] == playField[3] || playField[4] == playField[5] && playField[5] == playField[6] || playField[7] == playField[8] && playField[8] == playField[9])
+        {
+            return 1;
+        }
+        #endregion
+        #region Vertical win conditions
+        else if(playField[1] == playField[4] && playField[4] == playField[7] || playField[2] == playField[5] && playField[5] == playField[8] || playField[3] == playField[6] && playField[6] == playField[9])
+        {
+            return 1;
+        }
+        #endregion
+        #region Diagonal win conditions
+        else if(playField[1] == playField[5] && playField[5] == playField[9] || playField[3] == playField[5] && playField[5] == playField[7])
+        {
+            return 1;
+        }
+        #endregion
+        #region Draw conditions
+        else if(playField[1] != '1' && playField[2] != '2' && playField[3] != '3' && playField[4] != '4' && playField[5] != '5' && playField[6] != '6' && playField[7] != '7' && playField[8] != '8' && playField[9] != '9')
+        {
+            return -1;
+        }
+        #endregion
+        else
+        {
+            return 0;
+        }
+    }
 
 }
