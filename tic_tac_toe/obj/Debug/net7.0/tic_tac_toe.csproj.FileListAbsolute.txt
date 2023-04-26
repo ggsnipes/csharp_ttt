@@ -1,0 +1,15 @@
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\bin\Debug\net7.0\tic_tac_toe.exe
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\bin\Debug\net7.0\tic_tac_toe.deps.json
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\bin\Debug\net7.0\tic_tac_toe.runtimeconfig.json
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\bin\Debug\net7.0\tic_tac_toe.dll
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\bin\Debug\net7.0\tic_tac_toe.pdb
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.csproj.AssemblyReference.cache
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.AssemblyInfoInputs.cache
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.AssemblyInfo.cs
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.csproj.CoreCompileInputs.cache
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.dll
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\refint\tic_tac_toe.dll
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.pdb
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\tic_tac_toe.genruntimeconfig.cache
+C:\Users\amal\Documents\repos\csharp_ttt\tic_tac_toe\obj\Debug\net7.0\ref\tic_tac_toe.dll
