@@ -66,6 +66,41 @@ class Program
 
         }
         while(flag != 1 && flag != -1);
+
+        // while loop will keep going until all of the cells are marked
+
+        // clear the console and get the playfield again
+        Console.Clear();
+        Board();
+
+        // this is to check for win conditions
+        if(flag == 1)
+        {
+            Console.WriteLine("Player {0} wins!", (player % 2) + 1);
+        }
+        else
+        {
+            Console.WriteLine("It's a draw!");
+        }
+        Console.ReadLine();
+
     }
+
+    // Board to hold the playfield
+    private static void Board()
+    {
+        Console.WriteLine("     |     |      ");
+        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[0], arr[1], arr[2]);
+        Console.WriteLine("_____|_____|_____ ");
+        Console.WriteLine("     |     |      ");
+        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[3], arr[4], arr[5]);
+        Console.WriteLine("_____|_____|_____ ");
+        Console.WriteLine("     |     |      ");
+        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[6], arr[7], arr[8]);
+        Console.WriteLine("     |     |      ");
+    }
+
+    // win checker
+    
 
 }
