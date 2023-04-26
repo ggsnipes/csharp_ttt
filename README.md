@@ -8,4 +8,4 @@ Doing this for personal practice, getting a better understanding of how things w
 
 ## How to run
 
-If you're on windows, check under bin/Debug/net7.0, otherwise run using dotnet run while cd'd into the folder
+If you're on windows, check under bin/Debug/net7.0, otherwise run using `dotnet run` while cd'd into the folder
