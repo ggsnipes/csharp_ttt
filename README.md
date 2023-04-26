@@ -5,3 +5,7 @@ Doing this for personal practice, getting a better understanding of how things w
 ## Future plans
 
 - Maybe add a CPU to play in place of player 2, will have to learn how to do that effectively.
+
+## How to run
+
+If you're on windows, check under bin/Debug/net7.0, otherwise run using dotnet run while cd'd into the folder
