@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\amal\\.nuget\\packages\\": {}
+    "/home/amal/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amal\\Documents\\repos\\csharp_ttt\\tic_tac_toe\\tic_tac_toe.csproj",
+      "projectUniqueName": "/home/amal/repos/csharp_ttt/tic_tac_toe/tic_tac_toe.csproj",
       "projectName": "tic_tac_toe",
-      "projectPath": "C:\\Users\\amal\\Documents\\repos\\csharp_ttt\\tic_tac_toe\\tic_tac_toe.csproj",
-      "packagesPath": "C:\\Users\\amal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amal\\Documents\\repos\\csharp_ttt\\tic_tac_toe\\obj\\",
+      "projectPath": "/home/amal/repos/csharp_ttt/tic_tac_toe/tic_tac_toe.csproj",
+      "packagesPath": "/home/amal/.nuget/packages/",
+      "outputPath": "/home/amal/repos/csharp_ttt/tic_tac_toe/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/amal/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -54,12 +54,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.3, 7.0.3]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "O6Z3+RopSRd9xYWva4a3b5JnHXYxwg/CW0tEjaft5/tWLUAfSktpJmUPj3oA5GxL/7tDJUMujpy9rkhwxM+6dQ==",
+  "dgSpecHash": "JrYlbY+7wZT2HF0LpXk1Q9g8udENC8XLlrgcn9vkdnyLfAEuaGDi8MBjrx8tp03/OO/cyYOJEWdYq3bf8kYfVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amal\\Documents\\repos\\csharp_ttt\\tic_tac_toe\\tic_tac_toe.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/amal/repos/csharp_ttt/tic_tac_toe/tic_tac_toe.csproj",
+  "expectedPackageFiles": [
+    "/home/amal/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
